@@ -1,8 +1,7 @@
 .headerPrincipal .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .headerPrincipal-nav{
@@ -30,3 +29,17 @@
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
 }
+
+/*flex wrap rellena de acuerdo a los pixeles que se le asignan */
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
