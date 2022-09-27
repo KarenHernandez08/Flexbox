@@ -50,4 +50,13 @@
 }
 
 
+/* Responsive*/
+.headerPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+}
+
+.headerPrincipal-nav{
+    flex-direction: column;
+}
 
